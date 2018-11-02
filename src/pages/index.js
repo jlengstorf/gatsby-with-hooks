@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { setConfig } from 'react-hot-loader';
+
+setConfig({ pureSFC: true });
 
 export default () => {
   const [count, setCount] = useState(0);
